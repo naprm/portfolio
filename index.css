@@ -1,0 +1,151 @@
+img {
+    width: 420px;
+    height: 550px;
+    float: left;
+    padding: 0px 40px 0px 60px;
+}
+
+.socials {
+    clear: both;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3, h4, p {
+    color: white;
+}
+
+.inner-container > p {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-footer {
+    margin-top: 100px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-google {
+    background: #c74141;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 0;
+    gap: 10px;
+    min-width: 20px;
+}
+
+.heading {
+    background-color: rgb(31, 28, 28);
+    font-size: 40px;
+    color: white;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
+
+.option {
+    font-size: 25px;
+    border: 2px;
+    border-style: solid;
+    font-weight: bold;
+    border-color: white;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.option:hover {
+    background-color: rgb(8, 195, 8);
+}
+
+.inner-container > p {
+    font-size: 25px;
+    padding-right: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 1000px){
+    .menu {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .option {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
